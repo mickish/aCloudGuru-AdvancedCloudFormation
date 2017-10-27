@@ -22,7 +22,8 @@
                 "s3:PutObject",
                 "s3:GetObject",
                 "s3:CreateBucket",
-                "iam:ListRoles"
+                "iam:ListRoles",
+                "sns:ListTopics"
             ],
             "Resource": [
                 "*"
